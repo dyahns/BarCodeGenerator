@@ -13,18 +13,22 @@
 		8EB307B2233650F9006E5213 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EB307B1233650F9006E5213 /* Assets.xcassets */; };
 		8EB307B5233650F9006E5213 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EB307B3233650F9006E5213 /* LaunchScreen.storyboard */; };
 		8EB307C0233650F9006E5213 /* BarCodeGeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB307BF233650F9006E5213 /* BarCodeGeneratorTests.swift */; };
-		8EB307CB233650F9006E5213 /* BarCodeGeneratorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB307CA233650F9006E5213 /* BarCodeGeneratorUITests.swift */; };
+		8EB307DA2336533D006E5213 /* ImageProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB307D92336533D006E5213 /* ImageProvider.swift */; };
+		8EB307DE233654D4006E5213 /* BarCodeProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB307DD233654D4006E5213 /* BarCodeProvider.swift */; };
+		8EB307E02336569A006E5213 /* StringProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB307DF2336569A006E5213 /* StringProvider.swift */; };
+		8EB307E22336575E006E5213 /* RandomStringGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB307E12336575E006E5213 /* RandomStringGenerator.swift */; };
+		8EB307E42336582C006E5213 /* RandomStringGeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB307E32336582C006E5213 /* RandomStringGeneratorTests.swift */; };
+		8EB307E723365B37006E5213 /* UIImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB307E623365B37006E5213 /* UIImageExtensions.swift */; };
+		8EB307E923365D64006E5213 /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB307E823365D64006E5213 /* UIViewControllerExtensions.swift */; };
+		8EB307EB233661E2006E5213 /* UIImageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB307EA233661E2006E5213 /* UIImageTests.swift */; };
+		8EB307ED23366630006E5213 /* CodeTypeSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB307EC23366630006E5213 /* CodeTypeSelector.swift */; };
+		8EB307EF233666EE006E5213 /* CodeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB307EE233666EE006E5213 /* CodeType.swift */; };
+		8EB307F123366E54006E5213 /* CodeTypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB307F023366E54006E5213 /* CodeTypeTests.swift */; };
+		8EB307F323367A74006E5213 /* BarCodeProviderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB307F223367A74006E5213 /* BarCodeProviderTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		8EB307BC233650F9006E5213 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8EB3079F233650F7006E5213 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8EB307A6233650F7006E5213;
-			remoteInfo = BarCodeGenerator;
-		};
-		8EB307C7233650F9006E5213 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 8EB3079F233650F7006E5213 /* Project object */;
 			proxyType = 1;
@@ -44,9 +48,18 @@
 		8EB307BB233650F9006E5213 /* BarCodeGeneratorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarCodeGeneratorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EB307BF233650F9006E5213 /* BarCodeGeneratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarCodeGeneratorTests.swift; sourceTree = "<group>"; };
 		8EB307C1233650F9006E5213 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8EB307C6233650F9006E5213 /* BarCodeGeneratorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarCodeGeneratorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8EB307CA233650F9006E5213 /* BarCodeGeneratorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarCodeGeneratorUITests.swift; sourceTree = "<group>"; };
-		8EB307CC233650F9006E5213 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EB307D92336533D006E5213 /* ImageProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageProvider.swift; sourceTree = "<group>"; };
+		8EB307DD233654D4006E5213 /* BarCodeProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarCodeProvider.swift; sourceTree = "<group>"; };
+		8EB307DF2336569A006E5213 /* StringProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringProvider.swift; sourceTree = "<group>"; };
+		8EB307E12336575E006E5213 /* RandomStringGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomStringGenerator.swift; sourceTree = "<group>"; };
+		8EB307E32336582C006E5213 /* RandomStringGeneratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomStringGeneratorTests.swift; sourceTree = "<group>"; };
+		8EB307E623365B37006E5213 /* UIImageExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtensions.swift; sourceTree = "<group>"; };
+		8EB307E823365D64006E5213 /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtensions.swift; sourceTree = "<group>"; };
+		8EB307EA233661E2006E5213 /* UIImageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageTests.swift; sourceTree = "<group>"; };
+		8EB307EC23366630006E5213 /* CodeTypeSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeTypeSelector.swift; sourceTree = "<group>"; };
+		8EB307EE233666EE006E5213 /* CodeType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeType.swift; sourceTree = "<group>"; };
+		8EB307F023366E54006E5213 /* CodeTypeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeTypeTests.swift; sourceTree = "<group>"; };
+		8EB307F223367A74006E5213 /* BarCodeProviderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarCodeProviderTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,13 +77,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8EB307C3233650F9006E5213 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -79,7 +85,6 @@
 			children = (
 				8EB307A9233650F7006E5213 /* BarCodeGenerator */,
 				8EB307BE233650F9006E5213 /* BarCodeGeneratorTests */,
-				8EB307C9233650F9006E5213 /* BarCodeGeneratorUITests */,
 				8EB307A8233650F7006E5213 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,7 +94,6 @@
 			children = (
 				8EB307A7233650F7006E5213 /* BarCodeGenerator.app */,
 				8EB307BB233650F9006E5213 /* BarCodeGeneratorTests.xctest */,
-				8EB307C6233650F9006E5213 /* BarCodeGeneratorUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -98,8 +102,10 @@
 			isa = PBXGroup;
 			children = (
 				8EB307AA233650F7006E5213 /* AppDelegate.swift */,
-				8EB307AC233650F7006E5213 /* ViewController.swift */,
 				8EB307AE233650F7006E5213 /* Main.storyboard */,
+				8EB307AC233650F7006E5213 /* ViewController.swift */,
+				8EB307D8233652E4006E5213 /* Models */,
+				8EB307E523365AD0006E5213 /* Extensions */,
 				8EB307B1233650F9006E5213 /* Assets.xcassets */,
 				8EB307B3233650F9006E5213 /* LaunchScreen.storyboard */,
 				8EB307B6233650F9006E5213 /* Info.plist */,
@@ -111,18 +117,35 @@
 			isa = PBXGroup;
 			children = (
 				8EB307BF233650F9006E5213 /* BarCodeGeneratorTests.swift */,
+				8EB307E32336582C006E5213 /* RandomStringGeneratorTests.swift */,
+				8EB307EA233661E2006E5213 /* UIImageTests.swift */,
+				8EB307F023366E54006E5213 /* CodeTypeTests.swift */,
+				8EB307F223367A74006E5213 /* BarCodeProviderTests.swift */,
 				8EB307C1233650F9006E5213 /* Info.plist */,
 			);
 			path = BarCodeGeneratorTests;
 			sourceTree = "<group>";
 		};
-		8EB307C9233650F9006E5213 /* BarCodeGeneratorUITests */ = {
+		8EB307D8233652E4006E5213 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				8EB307CA233650F9006E5213 /* BarCodeGeneratorUITests.swift */,
-				8EB307CC233650F9006E5213 /* Info.plist */,
+				8EB307D92336533D006E5213 /* ImageProvider.swift */,
+				8EB307DF2336569A006E5213 /* StringProvider.swift */,
+				8EB307DD233654D4006E5213 /* BarCodeProvider.swift */,
+				8EB307E12336575E006E5213 /* RandomStringGenerator.swift */,
+				8EB307EC23366630006E5213 /* CodeTypeSelector.swift */,
+				8EB307EE233666EE006E5213 /* CodeType.swift */,
 			);
-			path = BarCodeGeneratorUITests;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8EB307E523365AD0006E5213 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8EB307E623365B37006E5213 /* UIImageExtensions.swift */,
+				8EB307E823365D64006E5213 /* UIViewControllerExtensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,24 +186,6 @@
 			productReference = 8EB307BB233650F9006E5213 /* BarCodeGeneratorTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		8EB307C5233650F9006E5213 /* BarCodeGeneratorUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8EB307D5233650F9006E5213 /* Build configuration list for PBXNativeTarget "BarCodeGeneratorUITests" */;
-			buildPhases = (
-				8EB307C2233650F9006E5213 /* Sources */,
-				8EB307C3233650F9006E5213 /* Frameworks */,
-				8EB307C4233650F9006E5213 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				8EB307C8233650F9006E5213 /* PBXTargetDependency */,
-			);
-			name = BarCodeGeneratorUITests;
-			productName = BarCodeGeneratorUITests;
-			productReference = 8EB307C6233650F9006E5213 /* BarCodeGeneratorUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -195,10 +200,6 @@
 						CreatedOnToolsVersion = 10.3;
 					};
 					8EB307BA233650F9006E5213 = {
-						CreatedOnToolsVersion = 10.3;
-						TestTargetID = 8EB307A6233650F7006E5213;
-					};
-					8EB307C5233650F9006E5213 = {
 						CreatedOnToolsVersion = 10.3;
 						TestTargetID = 8EB307A6233650F7006E5213;
 					};
@@ -219,7 +220,6 @@
 			targets = (
 				8EB307A6233650F7006E5213 /* BarCodeGenerator */,
 				8EB307BA233650F9006E5213 /* BarCodeGeneratorTests */,
-				8EB307C5233650F9006E5213 /* BarCodeGeneratorUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -242,13 +242,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8EB307C4233650F9006E5213 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -257,7 +250,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				8EB307AD233650F7006E5213 /* ViewController.swift in Sources */,
+				8EB307E22336575E006E5213 /* RandomStringGenerator.swift in Sources */,
+				8EB307DE233654D4006E5213 /* BarCodeProvider.swift in Sources */,
+				8EB307ED23366630006E5213 /* CodeTypeSelector.swift in Sources */,
+				8EB307E723365B37006E5213 /* UIImageExtensions.swift in Sources */,
+				8EB307E923365D64006E5213 /* UIViewControllerExtensions.swift in Sources */,
+				8EB307EF233666EE006E5213 /* CodeType.swift in Sources */,
 				8EB307AB233650F7006E5213 /* AppDelegate.swift in Sources */,
+				8EB307DA2336533D006E5213 /* ImageProvider.swift in Sources */,
+				8EB307E02336569A006E5213 /* StringProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,15 +266,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EB307F323367A74006E5213 /* BarCodeProviderTests.swift in Sources */,
+				8EB307E42336582C006E5213 /* RandomStringGeneratorTests.swift in Sources */,
 				8EB307C0233650F9006E5213 /* BarCodeGeneratorTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8EB307C2233650F9006E5213 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8EB307CB233650F9006E5213 /* BarCodeGeneratorUITests.swift in Sources */,
+				8EB307F123366E54006E5213 /* CodeTypeTests.swift in Sources */,
+				8EB307EB233661E2006E5213 /* UIImageTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,11 +281,6 @@
 			isa = PBXTargetDependency;
 			target = 8EB307A6233650F7006E5213 /* BarCodeGenerator */;
 			targetProxy = 8EB307BC233650F9006E5213 /* PBXContainerItemProxy */;
-		};
-		8EB307C8233650F9006E5213 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 8EB307A6233650F7006E5213 /* BarCodeGenerator */;
-			targetProxy = 8EB307C7233650F9006E5213 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -506,46 +498,6 @@
 			};
 			name = Release;
 		};
-		8EB307D6233650F9006E5213 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = T39MG9MKF5;
-				INFOPLIST_FILE = BarCodeGeneratorUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mu-sonic.BarCodeGeneratorUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = BarCodeGenerator;
-			};
-			name = Debug;
-		};
-		8EB307D7233650F9006E5213 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = T39MG9MKF5;
-				INFOPLIST_FILE = BarCodeGeneratorUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mu-sonic.BarCodeGeneratorUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = BarCodeGenerator;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -572,15 +524,6 @@
 			buildConfigurations = (
 				8EB307D3233650F9006E5213 /* Debug */,
 				8EB307D4233650F9006E5213 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8EB307D5233650F9006E5213 /* Build configuration list for PBXNativeTarget "BarCodeGeneratorUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8EB307D6233650F9006E5213 /* Debug */,
-				8EB307D7233650F9006E5213 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
