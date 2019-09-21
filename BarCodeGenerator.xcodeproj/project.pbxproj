@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8EADB9CD2336A02E00638774 /* screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EADB9CC2336A02E00638774 /* screenshot.png */; };
 		8EB307AB233650F7006E5213 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB307AA233650F7006E5213 /* AppDelegate.swift */; };
 		8EB307AD233650F7006E5213 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB307AC233650F7006E5213 /* ViewController.swift */; };
 		8EB307B0233650F7006E5213 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EB307AE233650F7006E5213 /* Main.storyboard */; };
@@ -38,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8EADB9CA23369D8200638774 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8EADB9CC2336A02E00638774 /* screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot.png; sourceTree = "<group>"; };
 		8EB307A7233650F7006E5213 /* BarCodeGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarCodeGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EB307AA233650F7006E5213 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8EB307AC233650F7006E5213 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -84,6 +87,8 @@
 			isa = PBXGroup;
 			children = (
 				8EB307A9233650F7006E5213 /* BarCodeGenerator */,
+				8EADB9CA23369D8200638774 /* README.md */,
+				8EADB9CC2336A02E00638774 /* screenshot.png */,
 				8EB307BE233650F9006E5213 /* BarCodeGeneratorTests */,
 				8EB307A8233650F7006E5213 /* Products */,
 			);
@@ -232,6 +237,7 @@
 				8EB307B5233650F9006E5213 /* LaunchScreen.storyboard in Resources */,
 				8EB307B2233650F9006E5213 /* Assets.xcassets in Resources */,
 				8EB307B0233650F7006E5213 /* Main.storyboard in Resources */,
+				8EADB9CD2336A02E00638774 /* screenshot.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
